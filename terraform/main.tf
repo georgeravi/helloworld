@@ -1,5 +1,5 @@
 resource "aws_instance" "app_server" {
-  ami           = "ami-0c55b159cbfafe1f0" # Ubuntu 20.04 AMI
+  ami           = "ami-0fb0b230890ccd1e6" # Ubuntu 20.04 AMI
   instance_type = "t2.micro"
 
   user_data = <<-EOF
